@@ -4,7 +4,7 @@
   var App = window.App;
 
   var SUBMIT_SELECTOR = '[payment="form"]';
-  var FormHandler = App.FormHandler;  // <---- the problem
+  var FormHandler = App.FormHandler; // <---- the problem
 
   var paymentHandler = new FormHandler(SUBMIT_SELECTOR);
 
